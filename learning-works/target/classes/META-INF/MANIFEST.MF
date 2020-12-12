@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: learning-works
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: banreddy1
+Implementation-Vendor-Id: com.learning
+Build-Jdk: 1.8.0_261
+Implementation-URL: https://spring.io/projects/spring-boot/learning-wo
+ rks
+Created-By: Maven Integration for Eclipse
+

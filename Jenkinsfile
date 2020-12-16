@@ -5,14 +5,9 @@ pipeline {
       		maven 'M3'
   	 }
 	    stages {
-		stage('cd ing') {
-		    steps {
-			bat 'cd learning-works'
-		    }
-		}
 		stage('Build') {
 		    steps {
-			bat 'mvn spring-boot:run'
+			bat 'cd learning-works && mvn spring-boot:run'
 		    }
 		}
 	    }

@@ -4,6 +4,9 @@ pipeline {
 		//hhoi
      		 maven 'M3'
   	 }
+	triggers {
+        pollSCM '* * * * *'
+    }
 	    stages {
 		stage('Build') {
 		    steps {
